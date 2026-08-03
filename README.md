@@ -1,31 +1,34 @@
 # Sales Copilot
 
-Sales Copilot é uma aplicação que analisa transcrições de reuniões comerciais utilizando Inteligência Artificial e gera insights para apoiar vendedores durante o processo comercial.
+Projeto desenvolvido como parte do processo seletivo da ZapSign.
 
-O projeto foi desenvolvido como parte de um desafio técnico da ZapSign, utilizando ferramentas no-code e low-code para construir uma solução funcional de ponta a ponta.
+O objetivo foi criar uma aplicação capaz de analisar transcrições de reuniões comerciais utilizando Inteligência Artificial, gerando insights para apoiar vendedores durante o processo de vendas.
 
 ---
 
 ## Objetivo
 
-Receber uma transcrição (.txt) de uma reunião de vendas e gerar automaticamente:
+Receber uma transcrição (.txt) de uma reunião comercial e gerar automaticamente:
 
-- Resumo executivo da conversa
+- Resumo executivo
 - Score de oportunidade
+- Análise SPIN Selling
 - Principais insights do cliente
-- Avaliação da metodologia SPIN Selling
-- Recomendações de próximos passos
+- Próximos passos sugeridos
+
+A ideia é transformar uma conversa comercial em informações práticas para apoiar o vendedor na condução da oportunidade.
 
 ---
 
-## Arquitetura
+## Como funciona
 
 Fluxo da aplicação:
 
 Transcrição (.txt)
+
 ↓
 
-Interface desenvolvida no Lovable
+Interface construída no Lovable
 
 ↓
 
@@ -37,42 +40,49 @@ OpenAI
 
 ↓
 
-JSON estruturado
+Retorno estruturado em JSON
 
 ↓
 
-Dashboard com os resultados da análise
+Dashboard com os insights da reunião
 
 ---
 
-## Tecnologias utilizadas
+## Ferramentas utilizadas
 
 - Lovable
 - n8n
 - OpenAI API
-- JSON
-- Webhooks
 
 ---
 
-## Como executar
+## Como testar
 
-1. Abrir a aplicação
-2. Fazer upload de um arquivo `.txt`
-3. Clicar em **Analyze Meeting**
-4. Visualizar os insights gerados automaticamente
+1. Abrir a aplicação.
+2. Fazer upload de um arquivo `.txt`.
+3. Clicar em **Analyze Meeting**.
+4. Visualizar os insights gerados automaticamente.
+
+---
+
+## O que aprendi
+
+Este foi meu primeiro contato com ferramentas como Lovable, n8n e integração com APIs.
+
+Durante o desenvolvimento precisei aprender a:
+
+- conectar serviços por webhook;
+- interpretar respostas em JSON;
+- corrigir problemas de integração;
+- adaptar a interface para consumir corretamente os dados retornados pela IA.
+
+Foi um desafio bastante diferente da minha experiência em vendas, mas extremamente enriquecedor.
 
 ---
 
 ## Screenshots
 
-### Página inicial
-
-(Imagem aqui)
-
-### Resultado da análise
-
-(Imagem aqui)
+*(vamos colocar aqui algumas imagens da aplicação)*
 
 ---
 
@@ -80,10 +90,4 @@ Dashboard com os resultados da análise
 
 https://SEU-LINK.lovable.app
 
----
 
-## Observações
-
-Durante o desenvolvimento foram necessários ajustes na integração entre Lovable e n8n para garantir que os dados retornados pela IA fossem corretamente interpretados e exibidos na interface.
-
-O projeto foi desenvolvido utilizando ferramentas no-code/low-code, com foco em integração, automação e experiência do usuário.
