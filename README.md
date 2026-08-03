@@ -30,6 +30,11 @@ https://sales-coach-ai-17.lovable.app
 **Repositório:**  
 https://github.com/olleticia/sales-copilot
 
+> **Observação:** para testar a aplicação, faça upload de um arquivo `.txt`
+contendo a transcrição de uma reunião comercial. O sistema irá gerar
+automaticamente um resumo executivo, Opportunity Score, análise SPIN,
+insights do cliente e recomendações de follow-up.
+
 ---
 
 ## Como funciona
