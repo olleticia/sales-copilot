@@ -20,6 +20,18 @@ A ideia é transformar uma conversa comercial em informações práticas para ap
 
 ---
 
+## Demo
+
+Você pode acessar a aplicação publicada no Lovable através do link abaixo:
+
+**Aplicação:**  
+https://sales-coach-ai-17.lovable.app
+
+**Repositório:**  
+https://github.com/olleticia/sales-copilot
+
+---
+
 ## Como funciona
 
 Fluxo da aplicação:
