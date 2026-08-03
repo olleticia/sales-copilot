@@ -89,5 +89,46 @@ Foi um desafio bastante diferente da minha experiência em vendas, mas extremame
 ## Link da aplicação
 
 https://SEU-LINK.lovable.app
+---
+
+# 📸 Screenshots
+
+### Home
+
+Tela inicial da aplicação.
+
+![Home](images/home.png)
+
+---
+
+### Executive Summary e Opportunity Score
+
+Resultado da análise da reunião.
+
+![Análise 1](images/analise%201.png)
+
+---
+
+### Customer Insights e SPIN Assessment
+
+Insights gerados automaticamente pela IA.
+
+![Análise 2](images/analise%202.png)
+
+---
+
+### Continuação da avaliação SPIN
+
+Detalhamento da análise das perguntas realizadas durante a reunião.
+
+![Análise 3](images/analise%203.png)
+
+---
+
+### Follow-up Recommendations
+
+Sugestões práticas de próximos passos para aumentar as chances de fechamento.
+
+![Resultado Final](images/analise%20final.png)
 
 
